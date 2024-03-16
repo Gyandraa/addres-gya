@@ -1,21 +1,15 @@
 const contacts = [
     {
         id: 1,
-        fullName: "M Haidar Hanif",
-        age: 30,
-        phone: "+621234567890",
+        Name: "Gyandra",
+        email: "gyandra@gmail.com",
+        phone: "628198279054",
     },
     {
         id: 2,
-        fullName: "Elon Musk",
-        age: 50,
-        phone: "+1234567890",
-    },
-    {
-        id: 3,
-        fullName: "Jeff Bezos",
-        age: 52,
-        phone: "+1234567890",
+        Name: "Naufal",
+        email: "sometwo@gmail.com",
+        phone: "6289368275462",
     },
 ];
 
