@@ -2,16 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>address-gya</title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>address-gyan</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-    <script src="index.js"></script>
-    <h1>Address Book</h1>
+    <div id="contact-panel" class="panel">
+        <h1>Add Contact</h1>
+        <div>
+            <thead>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </thead>
 
+            <ul id="list-data">
+                <!-- List items will be added dynamically here -->
+            </ul>
+
+            <div>
+                <label>
+                    <input type="text" name="contact" id="contact" placeholder="John..." />
+                </label>
+                <label>
+                    <input type="text" name="phone" id="phone" placeholder="123-456-789" />
+                    <!-- Changed type to text -->
+                </label>
+                <label>
+                    <input type="text" name="email" id="email" placeholder="asep@gmail.com" />
+                    <!-- Changed type to text -->
+                </label>
+                <input type="button" onclick="add()" value="Add" />
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
